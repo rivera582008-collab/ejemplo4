@@ -46,9 +46,10 @@ Quiero tener esa nena """
 # print(poema2_Mayusculas)
 # convertir en minusculas
 # se llama al string. lower (es para minusculas)
-poema2_minusculas = poema2.lower()
-print(poema2_minusculas)
+# poema2_minusculas = poema2.lower()
+# print(poema2_minusculas)
 
 mensaje = "hOlA KACe progRMando o qUe HaCe"
 # capitalize ayuda a que la primera letra de cada palabra sea mayuscula
 mensajeCorrecto = mensaje.capitalize()
+print(mensajeCorrecto)
