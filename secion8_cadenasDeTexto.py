@@ -61,18 +61,3 @@ print(tituloCorrecto)
 # swapCase() permite canbiar entre mayusculas y minusculas
 swapCaseTitulo = tituloCorrecto.swapcase()
 print(swapCaseTitulo)
-
-nombre1 = "Edgar"
-nombre2 = "Alexander"
-comparar = nombre1 + nombre2
-print(comparar)
-
-# metodos de validacion para saber si un elemento tiene numero o letra
-# false tiene numeros o espacios
-# true tiene solo letras
-numero = "512"
-solo_letras = "El chico del apartamentos "
-Coro = "piribiribanban"
-
-quieroSoloLetras = numero.isalpha()
-print(quieroSoloLetras)
