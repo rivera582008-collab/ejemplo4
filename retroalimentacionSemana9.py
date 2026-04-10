@@ -91,3 +91,27 @@ nombreMinusculas = nombre.lower()
 print(nombreMinusculas)
 nombreprimeraletramayuscula = nombre.title()
 print(nombreprimeraletramayuscula)
+
+
+# si la cadea tiene numeros
+siTieneNumeros = "Ever 2026"
+respuesta = siTieneNumeros.isnumeric()
+print(respuesta)
+
+islower = "Ella me abandono y destrozooo mi corazon"
+minusculas = islower.lower()
+print(minusculas)
+
+# este texto tiene numero -> True
+# isnumeric () para saber si tiene numeros
+# da false para que de true debe tener solo numeros
+
+mayusculas = "Cristiano Leo sung"
+mayu = mayusculas.isupper()
+print(mayu)
+
+# strin barca un espacio de memria diferente al de un espacio numerico
+# int
+# float
+# Decimal
+# Boolean
