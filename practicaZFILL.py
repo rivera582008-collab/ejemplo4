@@ -16,10 +16,10 @@ print(texto2)
 texto3 = input("Ingrese un numero ")
 text = texto3.strip().zfill(6)
 
-print(text)
+print(text)    
 
 
-f1 = "Manzana".ljust(20)
+f1 = "Manzana".ljust(20)    
 f2 = "Pera".ljust(20)
 f3 = "Mango".ljust(20)
 f4 = "Melon".ljust(20)
